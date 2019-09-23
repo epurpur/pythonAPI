@@ -35,7 +35,7 @@ There are many more possibilities with the Twitter APIs, which are not included 
 
 ## **Get Credentials (API Key)**##
 
-*Unfortunately, there is a delay between your request for a new twitter API key and when they deliver it to you. Please do this before class if possible!*
+*Unfortunately, there is a delay between your request for a new twitter API key and when they deliver it to you. You will also need to create an account with Twitter. Please do this before class if possible!*
 
 Before using the Twitter API, you first need a Twitter account, and to have obtained some credentials. The process of getting credentials could change with time, but currently it is as follows:
 
@@ -45,3 +45,15 @@ Visit the Application Management page at https://apps.twitter.com/, and sign in 
 * In the same section click on "Create my access token" button
 * Take note of your Access Token and Access Token Secret
 And that's all. The consumer key/secret is used to authenticate the app that is using the Twitter API, while the access token/secret authenticates the user. All of these parameters should be treated as passwords, and should not be included in your code in plain text.
+
+
+## **Python Wrappers for Twitter**##
+
+Perhaps "wrapper" is a better term for how to describe Twitter's python API, because the following examples are using python specific libraries to create code to "wrap" around the API to do various things. I will give examples with a couple libraries I have used, though there are many more. Don't hesitate to use another one you already know or like better than these!
+
+**Twython**
+
+
+
+
+
