@@ -14,12 +14,12 @@ However, what if you are not using the airline’s website––a channel that h
 
 The travel service, in this case, interacts with the airline’s API. The API is the interface that, like your helpful waiter, can be asked by that online travel service to get information from the airline’s database to book seats, baggage options, etc. The API then takes the airline’s response to your request and delivers it right back to the online travel service, which then shows you the most updated, relevant information.
 
-## **RESTful APIs**##
+## **RESTful APIs**
 REST determines how the API looks like. It stands for “Representational State Transfer”. It is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data (called a resource) when you link to a specific URL.
 
 Each URL is called a request while the data sent back to you is called a response. Basically, you submit a URL to the API, and the API delivers data back to you conforming to the parameters you asked for. Twitter's API is an example of a REST API. 
 
-## **Twitter API**##
+## **Twitter API**
 *The following is taken from [Stack Abuse](https://stackabuse.com/accessing-the-twitter-api-with-python/)*
 
 There are many APIs on the Twitter platform that software developers can engage with, with the ultimate possibility to create fully automated systems which will interact with Twitter. While this feature could benefit companies by drawing insights from Twitter data, it's also suitable for smaller-scale projects, research, and fun. Here are a few of the most notable APIs provided by Twitter:
@@ -33,7 +33,7 @@ Trends: trending topics in a given location.
 Geo: information about known places or places near a location.
 There are many more possibilities with the Twitter APIs, which are not included in this list. Twitter is also constantly expanding its range of services by adding new APIs from time to time, and updating existing ones.
 
-## **Get Credentials (API Key)**##
+## **Get Credentials (API Key)**
 
 *Unfortunately, there is a delay between your request for a new twitter API key and when they deliver it to you. You will also need to create an account with Twitter. Please do this before class if possible!*
 
@@ -47,11 +47,22 @@ Visit the Application Management page at https://apps.twitter.com/, and sign in 
 And that's all. The consumer key/secret is used to authenticate the app that is using the Twitter API, while the access token/secret authenticates the user. All of these parameters should be treated as passwords, and should not be included in your code in plain text.
 
 
-## **Python Wrappers for Twitter**##
+## **Python Wrappers for Twitter**
 
 Perhaps "wrapper" is a better term for how to describe Twitter's python API, because the following examples are using python specific libraries to create code to "wrap" around the API to do various things. I will give examples with a couple libraries I have used, though there are many more. Don't hesitate to use another one you already know or like better than these!
 
 **Twython**
+*Get the docs here: https://twython.readthedocs.io/en/latest/
+*"Twython is an actively maintained, pure python wrapper for the Twitter API..."
+
+To experiment on your own, take a look at the documentation. Particularly the "starting out" link: https://twython.readthedocs.io/en/latest/usage/starting_out.html
+
+**Tweepy**
+*Get the docs here: https://tweepy.readthedocs.io/en/latest/
+*"Tweepy is an easy to use Python library for accessing the Twitter API"
+
+Great article on the background of Tweepy, the Twitter API, and how to create a Twitter bot here: https://realpython.com/twitter-bot-python-tweepy/
+
 
 
 
