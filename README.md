@@ -64,7 +64,7 @@ To experiment on your own, take a look at the documentation. Particularly the "s
 Great article on the background of Tweepy, the Twitter API, and how to create a Twitter bot here: https://realpython.com/twitter-bot-python-tweepy/
 
 
-
+## **Open Weather Map**
 
 
 
