@@ -11,6 +11,7 @@ import tweepy
 import json
 import pandas as pd
 from datetime import date
+import requests
 
 
 
@@ -35,7 +36,7 @@ from datetime import date
 #         }
 #
 #
-#results_dict = python_tweets.search(**query)            #creates a DICTIONARY with results          
+#results_dict = python_tweets.search(**query)            #creates a DICTIONARY with results. Data is structured in JSON format          
 #
 #for keys, values in results_dict.items():               
 #    print(keys)                                         #only two keys (statuses, search metadata)
@@ -112,5 +113,42 @@ from datetime import date
 
     
 
-###############################
+############################### Open Weather Map
+#Open Weather map is a weather forecast site with a great, easy to use, API.
+#API documentation: https://openweathermap.org/api
 
+#app_id = 'copy and paste your app id here'                                              #Note: this is NOT secure and is only being used for example purposes
+app_id = '333de4e909a5ffe9bfa46f0f89cad105'
+
+#Each city in the world has a unique id number. There are over 1,000,000 so I have given you a few to start with.
+city_id_dict = {'Charlottesville': 4752031, 
+                'New York': 5128581,
+                'Chicago': 4887398,
+                'Paris': 6455259,
+                'Cape Town': 3369157,
+                'Beirut': 276781,
+                'Dubai': 292223,
+                'Shanghai': 1796236,
+                'Moscow': 524901,
+                'Addis Ababa': 344979,
+                'Bangkok': 1609350,
+                'Oslo': 6453366,
+                'Sao Paolo': 3448439,
+                'Bogota': 3688689,
+                'Havana': 3553478}
+
+city_id_string = str(city_id_dict['Dubai'])                                         #change the city name here
+
+#Make a request to get today's weather
+request = requests.get(f'http://api.openweathermap.org/data/2.5/group?APPID={app_id}&id={city_id_string}&units=imperial')               #this actually makes the request to the API via the URL with correct parameters
+
+json_data = json.loads(request.text)                                                #json_data is now a dictionary object
+print(json_data)
+
+#for keys, values in json_data.items():
+#    print(keys)                                                                     #all the interesting data is contained in the 'list' key
+
+print(json_data['list'][0])                                                          #Now we have a list object
+
+#Make a request to get the 5 day forecast
+    
