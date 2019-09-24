@@ -121,7 +121,7 @@ import requests
 app_id = '333de4e909a5ffe9bfa46f0f89cad105'
 
 #Each city in the world has a unique id number. There are over 1,000,000 so I have given you a few to start with.
-city_id_dict = {'Charlottesville': 4752031, 
+city_id_dict = {'Charlottesville': 4752046,                                         #Charlottesville's forecast seems to be wrong??
                 'New York': 5128581,
                 'Chicago': 4887398,
                 'Paris': 6455259,
@@ -133,22 +133,58 @@ city_id_dict = {'Charlottesville': 4752031,
                 'Addis Ababa': 344979,
                 'Bangkok': 1609350,
                 'Oslo': 6453366,
-                'Sao Paolo': 3448439,
+                'Sao Paulo': 3448439,
                 'Bogota': 3688689,
                 'Havana': 3553478}
 
-city_id_string = str(city_id_dict['Dubai'])                                         #change the city name here
+city_name = 'Oslo'                                               #change the city name here
+city_id_string = str(city_id_dict[f'{city_name}'])                                         
 
 #Make a request to get today's weather
-request = requests.get(f'http://api.openweathermap.org/data/2.5/group?APPID={app_id}&id={city_id_string}&units=imperial')               #this actually makes the request to the API via the URL with correct parameters
-
-json_data = json.loads(request.text)                                                #json_data is now a dictionary object
-print(json_data)
-
-#for keys, values in json_data.items():
-#    print(keys)                                                                     #all the interesting data is contained in the 'list' key
-
-print(json_data['list'][0])                                                          #Now we have a list object
+#request = requests.get(f'http://api.openweathermap.org/data/2.5/group?APPID={app_id}&id={city_id_string}&units=imperial')               #this actually makes the request to the API via the URL with correct parameters
+#
+#json_data = json.loads(request.text)                                                #json_data is now a dictionary object
+#print(json_data)
+#
+##for keys, values in json_data.items():
+##    print(keys)                                                                     #all the interesting data is contained in the 'list' key
+#
+#print(json_data['list'][0])                                                          #Now we have a list object
 
 #Make a request to get the 5 day forecast
+#This gives the forecast at 3 hour intervals for 5 days
+#request = requests.get(f'http://api.openweathermap.org/data/2.5/forecast?id={city_id_string}&APPID=333de4e909a5ffe9bfa46f0f89cad105&units=imperial&')
+#json_data = json.loads(request.text)
+
+
+#print(json_data)                                                                    #note how messy and hard to read this is. Yet, it is a dictionary
+
+
+#for measurement in json_data['list']:
+#    print(measurement)
     
+    
+#for daily_measurement in json_data['list']:
+#    if daily_measurement['dt_txt'][11:20] == '12:00:00':
+#        print(daily_measurement)
+#        print(daily_measurement['dt_txt'][:10])
+#        print(daily_measurement['main']['temp'])                                   #it gets tricky to parse through nested dictionaries
+#        print()
+
+    
+#A cleaner version of the above block
+#for daily_measurement in json_data['list']:
+#    time_stamp = daily_measurement['dt_txt'][11:20]
+#    if time_stamp == '12:00:00':
+#        day = daily_measurement['dt_txt'][:10]
+#        temperature = daily_measurement['main']['temp']
+#        print(f'The temperature in {city_name} on {day} will be {temperature} degrees')
+        
+        
+        
+
+
+
+
+
+
