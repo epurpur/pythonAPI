@@ -52,12 +52,14 @@ And that's all. The consumer key/secret is used to authenticate the app that is 
 Perhaps "wrapper" is a better term for how to describe Twitter's python API, because the following examples are using python specific libraries to create code to "wrap" around the API to do various things. I will give examples with a couple libraries I have used, though there are many more. Don't hesitate to use another one you already know or like better than these!
 
 **Twython**
+
 *Get the docs here: https://twython.readthedocs.io/en/latest/
 *"Twython is an actively maintained, pure python wrapper for the Twitter API..."
 
 To experiment on your own, take a look at the documentation. Particularly the "starting out" link: https://twython.readthedocs.io/en/latest/usage/starting_out.html
 
 **Tweepy**
+
 *Get the docs here: https://tweepy.readthedocs.io/en/latest/
 *"Tweepy is an easy to use Python library for accessing the Twitter API"
 
@@ -66,5 +68,9 @@ Great article on the background of Tweepy, the Twitter API, and how to create a 
 
 ## **Open Weather Map**
 
+*Get the API documentation here: https://openweathermap.org/api
+*Current Weather API docs: https://openweathermap.org/current
+*5 Day Forecast API docs: https://openweathermap.org/forecast5
 
-
+Open Weather Map provides an API which, upon request, returns weather data in JSON format. Open Weather map also provides
+various subcription levels that provide access to different data, though some data is available for free. 
