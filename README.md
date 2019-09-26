@@ -1,8 +1,8 @@
 ## **About Me**
 
-Erich Purpur
-epurpur@virginia.edu
-Brown Science & Engineering Library i046
+-Erich Purpur
+-epurpur@virginia.edu
+-Brown Science & Engineering Library i046
 
 I'm a part of a group called [research data services](https://data.library.virginia.edu/) and I do these things:
     
