@@ -9,7 +9,6 @@ Created on Mon Sep 23 15:09:10 2019
 from twython import Twython
 import tweepy
 import json
-import pandas as pd
 from datetime import date
 import requests
 
@@ -19,29 +18,31 @@ import requests
 ############################### Twython
 #First you need to install Twython. In the terminal(Mac) or Shell(Windows)... pip install twython
 
+#To find your twitter API keys, go here (after login): https://developer.twitter.com/en/apps/
+
 #twython_key = 'your consumer key as string here'                          #Copy and paste your API consumer key here. This is NOT secure and is only being used as an example
 #twython_secret = 'your consumer secret as string here'                    #Copy and paste your API consumer secret here. This is NOT secure and is only being used as an example
-#twython_key = 'iJGWsGU50hpgpHPufeqe7IoAq'
-#twython_secret = 'wj0YmifZhPH5TaY5iGCTDpQGp4rivmFq5DYkPOoegkOLAXsigD'
 #
 #
 #python_tweets = Twython(twython_key, twython_secret)                      #This packages your API keys together in a format that Twitter likes
 #
 #
-##Create your query
-#query = {'q': 'University of Virginia',
+#Create your query
+#query = {'q': 'UVA',
 #         'result_type': 'popular',
 #         'count': 5,
 #         'lang': 'en'
 #         }
-#
-#
+
+#print(type(python_tweets))
 #results_dict = python_tweets.search(**query)            #creates a DICTIONARY with results. Data is structured in JSON format          
-#
+
+#print(results_dict)
+
 #for keys, values in results_dict.items():               
 #    print(keys)                                         #only two keys (statuses, search metadata)
 #    
-#    
+    
 #print(results_dict['statuses'])                         #looks for values in the 'statuses' key of results_dict. Dictionaries are unordered data types and you find the values by calling the name of each key
 #
 #
@@ -69,6 +70,8 @@ import requests
 
 
 
+
+
 ############################### Tweepy
 #First you need to install Twython. In the terminal(Mac) or Shell(Windows)... pip install tweepy
 
@@ -77,28 +80,23 @@ import requests
 #tweepy_access_token = 'your access token as string here'                 #Copy and paste your API access token. This is NOT secure and is only being used as an example
 #tweepy_access_secret = 'your access token secret as string here'         #Copy and paste your API access token secret here. This is NOT secure and is only being used as an example
 
-
-#tweepy_key = 'iJGWsGU50hpgpHPufeqe7IoAq'
-#tweepy_secret = 'wj0YmifZhPH5TaY5iGCTDpQGp4rivmFq5DYkPOoegkOLAXsigD'
-#tweepy_access_token = '968923461031747584-7VxWwIwEQdU1jEcxyjB3E5vpc2oFrQL'
-#tweepy_access_secret = 'urEMTbfqDLOO5eYXcCvcAtspXy4TV7PT0lDZrYy8Y7rzC'
 #
 #auth = tweepy.OAuthHandler(tweepy_key, tweepy_secret)
 #auth.set_access_token(tweepy_access_token, tweepy_access_secret)
 #
 #api = tweepy.API(auth)
-#
+
 ##This example will download your home timeline tweets and print the text to the console
-##public_tweets = api.home_timeline()                                     #public_tweets is a Status object                        
-##for tweet in public_tweets:
-##    print(tweet.text)
-##    print()
-#
+#public_tweets = api.home_timeline()                                     #public_tweets is a Status object                        
+#for tweet in public_tweets:
+#    print(tweet.text)
+#    print()
+
 ##Work with your own Twitter metadata
 #user = api.get_user("PurpurErich")
 #print(user.name)
 #print()
-#
+##
 #print("My Followers")
 #for follower in user.followers():
 #    print(follower.name)
@@ -106,10 +104,13 @@ import requests
 
 
 #I've use the datetime module to make a simple tweet on my twitter account.
-#api.update_status(f"Hello from Tweepy on {date.today()}")                                  #makes a status update to your twitter page. You can make a twitter bot using either Tweepy or Twython
+#api.update_status(f"Hello from Tweepy on {date.today()}")                                 #makes a status update to your twitter page. You can make a twitter bot using either Tweepy or Twython
 
 #You can build much more sophisticated twitter bots. You can watch for Twitter activity for various hashtags, follow people, automatic retweets, etc
 #To see code examples, go here: https://realpython.com/twitter-bot-python-tweepy/
+
+
+
 
     
 
@@ -118,27 +119,27 @@ import requests
 #API documentation: https://openweathermap.org/api
 
 #app_id = 'copy and paste your app id here'                                              #Note: this is NOT secure and is only being used for example purposes
-app_id = '333de4e909a5ffe9bfa46f0f89cad105'
+#app_id = '333de4e909a5ffe9bfa46f0f89cad105'
 
 #Each city in the world has a unique id number. There are over 1,000,000 so I have given you a few to start with.
-city_id_dict = {'Charlottesville': 4752046,                                         #Charlottesville's forecast seems to be wrong??
-                'New York': 5128581,
-                'Chicago': 4887398,
-                'Paris': 6455259,
-                'Cape Town': 3369157,
-                'Beirut': 276781,
-                'Dubai': 292223,
-                'Shanghai': 1796236,
-                'Moscow': 524901,
-                'Addis Ababa': 344979,
-                'Bangkok': 1609350,
-                'Oslo': 6453366,
-                'Sao Paulo': 3448439,
-                'Bogota': 3688689,
-                'Havana': 3553478}
+#city_id_dict = {'Charlottesville': 4752046,                                         #Charlottesville's forecast seems to be wrong??
+#                'New York': 5128581,
+#                'Chicago': 4887398,
+#                'Paris': 6455259,
+#                'Cape Town': 3369157,
+#                'Beirut': 276781,
+#                'Dubai': 292223,
+#                'Shanghai': 1796236,
+#                'Moscow': 524901,
+#                'Addis Ababa': 344979,
+#                'Bangkok': 1609350,
+#                'Oslo': 6453366,
+#                'Sao Paulo': 3448439,
+#                'Bogota': 3688689,
+#                'Havana': 3553478}
 
-city_name = 'Oslo'                                               #change the city name here
-city_id_string = str(city_id_dict[f'{city_name}'])                                         
+#city_name = 'Oslo'                                               #change the city name here
+#city_id_string = str(city_id_dict[f'{city_name}'])                                         
 
 #Make a request to get today's weather
 #request = requests.get(f'http://api.openweathermap.org/data/2.5/group?APPID={app_id}&id={city_id_string}&units=imperial')               #this actually makes the request to the API via the URL with correct parameters
