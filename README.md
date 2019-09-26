@@ -5,10 +5,10 @@ epurpur@virginia.edu
 Brown Science & Engineering Library i046
 
 I'm a part of a group called [research data services](https://data.library.virginia.edu/) and I do these things:
-    * Serve as Liaison to various engineering departments
-    * Teach workshops and classes (like this one)
-    * Help people with research projects
-    * Random other things as they come up
+    1. Serve as Liaison to various engineering departments
+    2. Teach workshops and classes (like this one)
+    3. Help people with research projects
+    4. Random other things as they come up
 
 
 This is an introduction workshop to APIs. Specifically, we will be using the python API for various applications, but first we should start with the basics
