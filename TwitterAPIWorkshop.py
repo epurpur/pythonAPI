@@ -20,22 +20,22 @@ import requests
 
 #To find your twitter API keys, go here (after login): https://developer.twitter.com/en/apps/
 
-#twython_key = 'your consumer key as string here'                          #Copy and paste your API consumer key here. This is NOT secure and is only being used as an example
-#twython_secret = 'your consumer secret as string here'                    #Copy and paste your API consumer secret here. This is NOT secure and is only being used as an example
+twython_key = 'iJGWsGU50hpgpHPufeqe7IoAq'                         #Copy and paste your API consumer key here. This is NOT secure and is only being used as an example
+twython_secret = 'wj0YmifZhPH5TaY5iGCTDpQGp4rivmFq5DYkPOoegkOLAXsigD'                    #Copy and paste your API consumer secret here. This is NOT secure and is only being used as an example
 #
 #
-#python_tweets = Twython(twython_key, twython_secret)                      #This packages your API keys together in a format that Twitter likes
+python_tweets = Twython(twython_key, twython_secret)                      #This packages your API keys together in a format that Twitter likes
 #
 #
 #Create your query
-#query = {'q': 'UVA',
-#         'result_type': 'popular',
-#         'count': 5,
-#         'lang': 'en'
-#         }
+query = {'q': 'Trump',
+         'result_type': 'popular',
+         'count': 5,
+         'lang': 'en'
+         }
 
 #print(type(python_tweets))
-#results_dict = python_tweets.search(**query)            #creates a DICTIONARY with results. Data is structured in JSON format          
+results_dict = python_tweets.search(**query)            #creates a DICTIONARY with results. Data is structured in JSON format. **query is a keyword argument          
 
 #print(results_dict)
 
@@ -46,7 +46,7 @@ import requests
 #print(results_dict['statuses'])                         #looks for values in the 'statuses' key of results_dict. Dictionaries are unordered data types and you find the values by calling the name of each key
 #
 #
-#first_result = results_dict['statuses'][0]             #within ['statuses'] is a list (of dictionaries). Lists are ordered data types and you can use indexing to parse through the list elements
+first_result = results_dict['statuses'][0]             #within ['statuses'] is a list (of dictionaries). Lists are ordered data types and you can use indexing to parse through the list elements
 #print(first_result)
 #
 #
@@ -62,10 +62,11 @@ import requests
 #
 #
 ##A batch operation:
-#statuses = results_dict['statuses']                     
-#for status in statuses:
-#    print(status['text'])
-#    print()
+statuses = results_dict['statuses']                     
+for status in statuses:
+    print(status['text'])
+    print()
+    print()
     
 
 
@@ -117,6 +118,9 @@ import requests
 ############################### Open Weather Map
 #Open Weather map is a weather forecast site with a great, easy to use, API.
 #API documentation: https://openweathermap.org/api
+
+#First you need to install requests. In the terminal(Mac) or Shell(Windows)... pip install requests
+
 
 #app_id = 'copy and paste your app id here'                                              #Note: this is NOT secure and is only being used for example purposes
 #app_id = '333de4e909a5ffe9bfa46f0f89cad105'
