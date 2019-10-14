@@ -50,6 +50,15 @@ Trends: trending topics in a given location.
 Geo: information about known places or places near a location.
 There are many more possibilities with the Twitter APIs, which are not included in this list. Twitter is also constantly expanding its range of services by adding new APIs from time to time, and updating existing ones.
 
+## **JSON** 
+JSON is an acronym for JavaScript Object Notation. Basically it is a easy to use data interchange format. It is easy for 
+humans to read and write, and easy for machines to parse and create. JSON is a text format that is language independent. It 
+is built on name-value pairs. In python this is referred to as a dictionary. It has different names in other languages.
+
+For our concerns today, we submit a query to the endpoint via a URL and the response is returned as JSON data. Then we parse 
+this data just like we would any python dictionary. 
+
+
 ## **Get Credentials (API Key)**
 
 *Unfortunately, there is a delay between your request for a new twitter API key and when they deliver it to you. You will also need to create an account with Twitter. Please do this before class if possible!*
@@ -86,6 +95,7 @@ Great article on the background of Tweepy, the Twitter API, and how to create a 
 ## **Open Weather Map**
 
 *Get the API documentation here: https://openweathermap.org/api
+*Read the 'How to get started' page: https://openweathermap.org/appid
 *Current Weather API docs: https://openweathermap.org/current
 *5 Day Forecast API docs: https://openweathermap.org/forecast5
 
