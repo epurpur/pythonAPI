@@ -15,7 +15,7 @@ I'm a part of a group called [research data services](https://data.library.virgi
     4. Random other things as they come up
 
 
-This is an introduction workshop to APIs. Specifically, we will be using the python API for various applications, but first we should start with the basics
+This is an introduction workshop to APIs. Specifically, we will be using python to communicate with the API for various applications, but first we should start with the basics
 
 ## **What is an API?**
 *The following excerpt is taken from [this site](https://www.mulesoft.com/resources/api/what-is-an-api)*
