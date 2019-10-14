@@ -29,10 +29,16 @@ However, what if you are not using the airline’s website––a channel that h
 
 The travel service, in this case, interacts with the airline’s data via an API. The API is the interface that can be asked by that online travel service to get information from the airline’s database to book seats, baggage options, etc. The API then takes the airline’s response to your request and delivers it right back to the online travel service, which then shows you the most updated, relevant information.
 
-## **RESTful APIs**
-REST determines how the API looks like. It stands for “Representational State Transfer”. It is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data (called a resource) when you link to a specific URL.
+## **REST APIs**
+Stands for “Representational State Transfer” is an architectural style for APIs that relies on the HTTP protocol and JSON data format to send and receive messages. It is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data (called a resource) when you link to a specific URL.
 
-Each URL is called a request while the data sent back to you is called a response. Basically, you submit a URL to the API, and the API delivers data back to you conforming to the parameters you asked for. Twitter's API is an example of a REST API. 
+Each URL is called a request while the data sent back to you is called a response. Basically, you submit a URL to the API, and the API delivers data back to you conforming to the parameters you asked for. OpenWeatherMap and Twitter APIs are examples of REST APIs.
+
+For data security, uses HTTPS, which is the underlying transport mechanism. REST is generally the API style of choice today.
+
+
+## **SOAP APIs**
+Stands for "Simple Object Access Protocol" and is an API protocol that uses XML data format in order to exchange information. Uses extra overhead in order to package and un-package the data, for data security.
 
 
 ## **JSON** 
