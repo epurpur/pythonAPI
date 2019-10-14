@@ -27,7 +27,7 @@ Here is a real-life API example. You may be familiar with the process of searchi
 
 However, what if you are not using the airline’s website––a channel that has direct access to the information? What if you are using an online travel service, such as Google Flights or Expedia, which aggregates information from a number of airline databases?
 
-The travel service, in this case, interacts with the airline’s API. The API is the interface that can be asked by that online travel service to get information from the airline’s database to book seats, baggage options, etc. The API then takes the airline’s response to your request and delivers it right back to the online travel service, which then shows you the most updated, relevant information.
+The travel service, in this case, interacts with the airline’s data via an API. The API is the interface that can be asked by that online travel service to get information from the airline’s database to book seats, baggage options, etc. The API then takes the airline’s response to your request and delivers it right back to the online travel service, which then shows you the most updated, relevant information.
 
 ## **RESTful APIs**
 REST determines how the API looks like. It stands for “Representational State Transfer”. It is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data (called a resource) when you link to a specific URL.
