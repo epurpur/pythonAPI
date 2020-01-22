@@ -66,8 +66,14 @@ is built on name-value pairs. In python this is referred to as a dictionary. It 
 For our concerns today, we submit a query to the endpoint via a URL and the response is returned as JSON data. Then we parse 
 this data just like we would any python dictionary. 
 
+## **Requests**
+Requests is a Python module used to make HTTP requests. Basically, you structure an HTTP request and send it to an endpoint
 
-
+## **Conda**
+Conda is a special program used to install python packages to your system. Pip is another common one. Basically, base 
+installation of python provides many built in functions and libraries (some of which must be imported). But out there in the 
+world exist many, many other libraries which are available for you to use. These are basically like add-ons on top of 
+python. Conda is the built-in package library installed with the Anaconda distribution. 
 
 ## **Open Weather Map**
 
