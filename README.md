@@ -71,10 +71,12 @@ this data just like we would any python dictionary.
 
 ## **Open Weather Map**
 
-
 *Get the API documentation here: https://openweathermap.org/api
+
 *Read the 'How to get started' page: https://openweathermap.org/appid
+
 *Current Weather API docs: https://openweathermap.org/current
+
 *5 Day Forecast API docs: https://openweathermap.org/forecast5
 
 Open Weather Map provides an API which, upon request, returns weather data in JSON format. Open Weather map also provides
