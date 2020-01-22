@@ -90,6 +90,8 @@ various subcription levels that provide access to different data, though some da
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~`
+TWITTER API EXAMPLE
+
 ## **Get Credentials (API Key)**
 
 *Unfortunately, there is a delay between your request for a new twitter API key and when they deliver it to you. You will also need to create an account with Twitter. Please do this before class if possible!*
