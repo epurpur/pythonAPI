@@ -67,6 +67,20 @@ For our concerns today, we submit a query to the endpoint via a URL and the resp
 this data just like we would any python dictionary. 
 
 
+
+
+## **Open Weather Map**
+
+*Get the API documentation here: https://openweathermap.org/api
+*Read the 'How to get started' page: https://openweathermap.org/appid
+*Current Weather API docs: https://openweathermap.org/current
+*5 Day Forecast API docs: https://openweathermap.org/forecast5
+
+Open Weather Map provides an API which, upon request, returns weather data in JSON format. Open Weather map also provides
+various subcription levels that provide access to different data, though some data is available for free. 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~`
 ## **Get Credentials (API Key)**
 
 *Unfortunately, there is a delay between your request for a new twitter API key and when they deliver it to you. You will also need to create an account with Twitter. Please do this before class if possible!*
@@ -113,12 +127,4 @@ To experiment on your own, take a look at the documentation. Particularly the "s
 Great article on the background of Tweepy, the Twitter API, and how to create a Twitter bot here: https://realpython.com/twitter-bot-python-tweepy/
 
 
-## **Open Weather Map**
 
-*Get the API documentation here: https://openweathermap.org/api
-*Read the 'How to get started' page: https://openweathermap.org/appid
-*Current Weather API docs: https://openweathermap.org/current
-*5 Day Forecast API docs: https://openweathermap.org/forecast5
-
-Open Weather Map provides an API which, upon request, returns weather data in JSON format. Open Weather map also provides
-various subcription levels that provide access to different data, though some data is available for free. 
