@@ -75,6 +75,17 @@ installation of python provides many built in functions and libraries (some of w
 world exist many, many other libraries which are available for you to use. These are basically like add-ons on top of 
 python. Conda is the built-in package library installed with the Anaconda distribution. 
 
+## **Jupyter Notebook**
+Jupyter Notebooks are web applications that allow you a nice way to present and share live code and accompanying equations, 
+visualizations, etc. To me, they read and look like an interactive blog post. The author walks through the code step by step, 
+adding explanation and comments. The user can run and edit the code live. The next generation of Jupyter Notebooks is Jupyter 
+Lab and to be honest I can't tell the difference between them so I continue to use Jupyter Notebooks. Visit the [Project 
+Jupyter Homepage](https://jupyter.org/) to learn more.
+
+Jupyter Notebooks are web-based applications and are client/server applications. When you launch a Jupyter notebook, you might 
+notice that a web-server launches as well. We will be running this locally today, but you can also host a Jupyter notebook on 
+a remote server. You access the client through the web browser.
+
 ## **Open Weather Map**
 
 *Get the API documentation here: https://openweathermap.org/api
