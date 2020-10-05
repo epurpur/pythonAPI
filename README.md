@@ -9,7 +9,7 @@ Erich Purpur
 
 I'm a part of a group called [research data services](https://data.library.virginia.edu/) and I do these things:
     
-    1. Serve as Liaison to various engineering departments
+    1. Serve as Liaison to various departments in the sciences & engineering
     2. Teach workshops and classes (like this one)
     3. Help people with research projects
     4. Random other things as they come up
