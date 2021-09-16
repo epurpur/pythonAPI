@@ -18,13 +18,8 @@ I'm a part of a group called [research data services](https://data.library.virgi
 * [Research Data Services](https://data.library.virginia.edu/)
 * [Workshop Series](https://data.library.virginia.edu/training/)
 
-~R workshops
-  * Data Wrangling in R                                       Tuesday, 1/28  10:00 - 12:00 Brown 133
-  * Data Visualization in R                                   Tuesday, 2/4   10:00 - 12:00 Brown 133
-  
 ~Python Workshops
-  * Data Visualization with MatPlotLib                        Tuesday, 2/4   2:00 - 4:00 Brown 133
-  * Web Scraping in Python                                    Tuesday, 2/11  2:00 - 4:00 Brown 133
+  * Python Web Scraping                        Wednesday, 9/29   10:00am Brown 133
 
 
 We are partnering with Research Computing to offer all workshops in one series this semester!
