@@ -40,7 +40,7 @@ If you go to a restaurant, you sit down at a table and look at a menu. The serve
 Here is a real-life API example. You are probably familiar with the process of searching flights online. You have a variety of options to choose from, including different airlines, cities, departure and return dates, and more. Let us imagine that you are booking a flight on an airline website. You choose a departure city and date, a return city and date, cabin class, as well as other variables. In order to book your flight, you interact with the airline’s website to access their database and see if any seats are available on those dates and what the costs might be, etc. In between the website (front end) and database (back end), the airline has an API that allows that interaction. The information is commonly passed from the client to the server using HTTP protocol.
 
 
-
+Good example of an HTTP URL: https://newsapi.org/
 
 
 ## **REST APIs**
