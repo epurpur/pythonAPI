@@ -26,7 +26,7 @@ This is an introduction workshop to APIs. Specifically, we will be using python 
 *The following excerpt is taken from [this site](https://www.mulesoft.com/resources/api/what-is-an-api)*
 API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. By establishing a common set of rules for exchanging information, APIs make it easier for two parties to communicate with eachother. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
 
-For example, when you use an application on your device, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and thenn returns data to you. This data might be in the form of JSON or it might just be a response code <200>. This is what an API is - all of this happens via API.
+For example, when you use an application on your device, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and then returns data to you. This data might be in the form of JSON or it might just be a response code <200>. This is what an API is - all of this happens via API.
 
 The API states the rules in order for this communication to happen. 
 
