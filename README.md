@@ -18,10 +18,6 @@ I'm a part of a group called [research data services](https://data.library.virgi
 * [Research Data Services](https://data.library.virginia.edu/)
 * [Workshop Series](https://data.library.virginia.edu/training/)
 
-~Upcoming Workshops
-  * Python Web Scraping                        Wednesday, 9/29   10:00am Brown 133
-
-
 
 
 This is an introduction workshop to APIs. Specifically, we will be using python to communicate with the API for various applications, but first we should start with the basics
