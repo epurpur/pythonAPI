@@ -22,10 +22,11 @@ I'm a part of a group called [research data services](https://data.library.virgi
 
 More Information Available here: https://data.library.virginia.edu/training/#py
 
-* Python and APIs                               |      Wednesday 2/16,  11:00 - 12:30
-* Python Web Scraping                            |     Wednesday 2/23,  11:00 - 12:30
-* Version Control with Git/Github                 |    Tuesday   3/1,   10:00 - 11:30
-* Introduction to Regular Expressions              |   Wednesday 3/2,   11:00 - 12:30     
+* Python and APIs                               |      Tuesday 9/20,  10:00 - 11:30am
+* Geospatial Data & Mapping in Python           |      Tuesday 9/27,  10:00 - 11:30am
+* Version Control with Git/Github                 |    Tuesday 9/27,  1:00 - 2:30pm
+* Python Web Scraping                       |          Tuesday 10/4,  10:00 - 11:30am
+* Python File Input/Output                         |   Tuesday 10/11, 10:00 - 11:30am      
 
 This is an introduction workshop to APIs. Specifically, we will be using python to communicate with the API for various applications, but first we should start with the basics
 
