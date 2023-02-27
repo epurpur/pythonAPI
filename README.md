@@ -20,13 +20,11 @@ I'm a part of a group called [research data services](https://data.library.virgi
 
 ## **Upcoming Workshops**
 
-More Information Available here: https://data.library.virginia.edu/training/#py
-
-* Python and APIs                               |      Tuesday 9/20,  10:00 - 11:30am
-* Geospatial Data & Mapping in Python           |      Tuesday 9/27,  10:00 - 11:30am
-* Version Control with Git/Github                 |    Tuesday 9/27,  1:00 - 2:30pm
-* Python Web Scraping                       |          Tuesday 10/4,  10:00 - 11:30am
-* Python File Input/Output                         |   Tuesday 10/11, 10:00 - 11:30am      
+| Workshop | Date | Time |
+| ---- | ---- | ---- |
+| Python and APIs                                                 |       Wednesday 3/1    |  12:00 - 1:30pm
+| Python Web Scraping                                             |       Wednesday 3/15   |  12:00 - 1:30pm
+     
 
 This is an introduction workshop to APIs. Specifically, we will be using python to communicate with the API for various applications, but first we should start with the basics
 
