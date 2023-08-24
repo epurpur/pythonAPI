@@ -101,6 +101,16 @@ Open Weather Map provides an API which, upon request, returns weather data in JS
 various subcription levels that provide access to different data, though some data is available for free. 
 
 
+## **Self Help - You don't need to remember all of this!**
+
+Honestly, you don't need to remember most of it. Here are the resources I use when looking for answers:
+
+ChatGPT
+* ChatGPT has quickly made huge changes to the programming landscape. It is a hugely powerful tool **If you use it the right way!**. I think it is a somewhat slippery slope of how to advise new programmers to use ChatGPT (or other AI tools) so I will refer to some best practices. My personal opinion is that you should use AI minimally when you are starting. When you have a better grasp of basic fundamentals, then you can include AI and greatly increase your speed. **Never accept ChatGPT code verbatim!** Always double check it before including it in your workflows.
+* [How to Effectively Learn to Program w/ ChatGPT](https://towardsdatascience.com/how-to-effectively-start-coding-in-the-era-of-chatgpt-cfc5151e1c42)
+* [Corey Schafer's "How to use ChatGPT"](https://www.youtube.com/watch?v=jRAAaDll34Q)
+
+
 
 
 
