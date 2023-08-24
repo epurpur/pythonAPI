@@ -22,13 +22,19 @@ I'm a part of a group called [research data services](https://data.library.virgi
 * [Research Data Services](https://data.library.virginia.edu/)
 * [Workshop Series](https://data.library.virginia.edu/training/)
 
-## **Upcoming Workshops**
+## Other Upcoming Workshops
 
 | Workshop | Date | Time |
 | ---- | ---- | ---- |
-| Python and APIs                                                 |       Wednesday 3/1    |  12:00 - 1:30pm
-| Python Web Scraping                                             |       Wednesday 3/15   |  12:00 - 1:30pm
-     
+| Intro to Python pt 1                                                |       Tuesday 8/29   |  12:00 - 1:30pm
+| Intro to Python pt 2                                                |       Tuesday 9/5    |  12:00 - 1:30pm
+| Intro to Version Control w/ Git + Github                            |       Wednesday 9/6  |  1:00 - 2:30pm
+| Python Data Analysis + Visualization                                |       Tuesdady 9/12  |  12:00 - 1:30pm
+| Intro to Regular Expressions                                        |       Wednesday 9/13 |  1:00 - 2:30pm
+| Python and APIs                                                     |       Tuesday 9/19   |  12:00 - 1:30pm
+| Geospatial Data + Mapping in Python                                 |       Tuesday 9/26   |  12:00 - 1:30pm
+| Python Web Dashboards w/ Streamlit                                  |       Tuesday 10/10  |  12:00 - 1:30pm
+ 
 
 This is an introduction workshop to APIs. Specifically, we will be using python to communicate with the API for various applications, but first we should start with the basics
 
