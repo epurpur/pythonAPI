@@ -5,6 +5,7 @@ Last updated 01/17/24
 ## **About Me**
 
 ### Link to recording of this workshop
+- [View in PanOpto](https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=609ba09d-1a86-4541-8ae7-b0f9010bc975)
 - [Click Here](https://youtu.be/WXH2c283HWU)
 
 
