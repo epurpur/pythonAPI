@@ -4,6 +4,10 @@ Last updated 01/17/24
 
 ## **About Me**
 
+### Link to recording of this workshop
+- [Click Here](https://youtu.be/WXH2c283HWU)
+
+
 Erich Purpur
 
     Research Librarian for Science & Engineering
