@@ -1,5 +1,5 @@
 ```
-Last updated 01/17/24
+Last updated 01/14/26
 ```
 
 ## **About Me**
@@ -31,12 +31,11 @@ I'm a part of a group called [research data services](https://data.library.virgi
 
 | Workshop | Date | Time |
 | ---- | ---- | ---- |
-| Intro to Python pt 1                                                |       Tuesday 1/30   |  12:00 - 1:30pm
-| Intro to Python pt 2                                                |       Tuesday 2/6    |  12:00 - 1:30pm
-| Python Data Analysis + Visualization                                |       Tuesday 2/13   |  12:00 - 1:30pm
-| Intro to Version Control w/ Git + Github                            |       Wednesday 2/14 |  10:00 - 11:30pm
-| Python and ChatGPT                                                  |       Tuesday 2/20   |  12:00 - 1:30pm
-| Geospatial Data + Mapping in Python                                 |       Tuesday 3/12   |  12:00 - 1:30pm
+| Intro to Python pt 1                                                |       Tuesday 1/20   |  3:00 - 4:30pm
+| Intro to Python pt 2                                                |       Tuesday 1/27   |  3:00 - 4:30pm
+| Python & APIs                                                       |       Tuesday 2/3    |  3:00 - 4:30pm
+| Using Large Lanugage Models Locally                                 |       Tuesday 2/17   |  3:00 - 4:30pm
+| Python & Local LLMs                                                 |       Tuesday 2/24   |  3:00 - 4:30pm
 
 
 This is an introduction workshop to APIs. Specifically, we will be using python to communicate with the API for various applications, but first we should start with the basics
