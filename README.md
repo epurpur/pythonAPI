@@ -44,27 +44,23 @@ This is an introduction workshop to APIs. Specifically, we will be using python 
 *The following excerpt is taken from [this site](https://www.mulesoft.com/resources/api/what-is-an-api)*
 API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. By establishing a common set of rules for exchanging information, APIs make it easier for two parties to communicate with eachother. Each time you use an app like Instagram, find a song you like on Spotify, or check the weather on your phone, you’re using an API.
 
-For example, when you use an application on your device, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and then returns data to you. This data might be in the form of JSON or it might just be a response code <200>. This is what an API is - all of this happens via API.
+For example, when you use an application on your device, the application connects to the Internet and sends data to a server. The server then receives that data, interprets it, performs the response which might involve sending data back to you. Sometimes all you get is a response code <200>. This is what an API is - all of this happens via API.
 
 The API states the rules in order for this communication to happen. 
 
 An analog example in real life...
-If you go to a restaurant, you sit down at a table and look at a menu. The server comes and takes your order. Your order is then taken to the kitchen where they prepare the food. In this case, the server is the API, which is a layer of interaction between the client and the kitchen. You (probably) can't go directly into the kitchen and order food. The waiter is the intermediary that takes your information and interprets it into a form the kitchen can understand. The information (the food in this case) is then sent back to you, the client. 
+If you go to a restaurant, you sit down at a table and look at a menu. The server comes and takes your order. Your order is then taken to the kitchen where they prepare the food. In this case, the server is the API, which is a layer of interaction between the client and the kitchen. You (probably) can't go directly into the kitchen and order food. The waiter is the intermediary that takes your information and interprets it into a form the kitchen can understand. The response (the food in this case) is then sent back to you, the client. 
 
 
-Good example of an HTTP URL: https://newsapi.org/
+Good example of a response from an HTTP URL: https://newsapi.org/
 
 
 ## **REST APIs**
 Stands for “Representational State Transfer” is an architectural style for APIs that relies on the HTTP protocol and JSON data format to send and receive messages. It is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data (called a resource) when you link to a specific URL.
 
-Each URL is called a request while the data sent back to you is called a response. Basically, you submit a URL to the API, and the API delivers data back to you conforming to the parameters you asked for. OpenWeatherMap and Twitter APIs are examples of REST APIs.
+Each URL is called a request while the data sent back to you is called a response. Basically, you submit a URL to the API, and the API delivers data back to you conforming to the parameters you asked for. OpenWeatherMap is an example of a REST API.
 
 For data security, uses HTTPS, which is the underlying transport mechanism. REST is generally the API style of choice today.
-
-
-## **SOAP APIs**
-Stands for "Simple Object Access Protocol" and is an API protocol that uses XML data format in order to exchange information. Uses extra overhead in order to package and un-package the data, for data security.
 
 
 ## **JSON** 
